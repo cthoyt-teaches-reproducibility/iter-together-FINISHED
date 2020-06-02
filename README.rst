@@ -6,8 +6,8 @@ This package was written to accompany the tutorial `Reusable, Reproducible, Usef
 Python <bit.ly/2ZXoBMA>`_ that was organized by `CoronaWhy <https://github.com/coronawhy/>`_ and presented
 by `Charles Tapley Hoyt <https://github.com/cthoyt/>`_ on June 3rd, 2020.
 
-Installation |pypi_version| |python_versions| |pypi_license|
-------------------------------------------------------------
+Installation
+------------
 ``iter-together`` can be installed in development mode with:
 
 .. code-block:: sh
@@ -98,18 +98,6 @@ then pushing to git again.
 .. |climate| image:: https://codeclimate.com/github/cthoyt-teaches-reproducibility/iter-together-FINISHED/badges/gpa.svg
     :target: https://codeclimate.com/github/cthoyt-teaches-reproducibility/iter-together-FINISHED
     :alt: Code Climate
-
-.. |python_versions| image:: https://img.shields.io/pypi/pyversions/PyBEL.svg
-    :target: https://pypi.python.org/pypi/pybel
-    :alt: Stable Supported Python Versions
-
-.. |pypi_version| image:: https://img.shields.io/pypi/v/PyBEL.svg
-    :target: https://pypi.python.org/pypi/pybel
-    :alt: Current version on PyPI
-
-.. |pypi_license| image:: https://img.shields.io/pypi/l/PyBEL.svg
-    :target: https://github.com/cthoyt-teaches-reproducibility/iter-together-FINISHED/blob/master/LICENSE
-    :alt: MIT License
 
 .. |zenodo| image:: https://zenodo.org/badge/68376693.svg
     :target: https://zenodo.org/badge/latestdoi/68376693
