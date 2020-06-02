@@ -6,6 +6,28 @@ This package was written to accompany the tutorial `Reusable, Reproducible, Usef
 Python <bit.ly/2ZXoBMA>`_ that was organized by `CoronaWhy <https://github.com/coronawhy/>`_ and presented
 by `Charles Tapley Hoyt <https://github.com/cthoyt/>`_ on June 3rd, 2020.
 
+Ignore the Junk
+---------------
+This repository uses a ``.gitignore`` file to make sure no junk gets committed. GitHub will ask you if
+you want a pre-populated ``.gitignore`` added to your repo on creation. You can also go to https://www.gitignore.io/
+to get more options.
+
+Things that are especially bad to commit to repos:
+
+- compiled python files (*.pyc)
+- Jupyter notebook checkpoint folders (.ipynb_checkpoints/)
+- documentation builds (let ReadTheDocs take care of this!)
+- tox and other automation/build tool caches
+- basically any file you didn't make on purpose
+
+License
+-------
+The code in this repository is distributed under the MIT License. You should always add a license to your
+repository otherwise other people can't legally use it. If you're working alone, it's also best to license
+the repository under your name!
+
+You can check https://choosealicense.com/ to understand the differences between open source software licenses.
+
 Installation
 ------------
 ``iter-together`` can be installed in development mode with:
