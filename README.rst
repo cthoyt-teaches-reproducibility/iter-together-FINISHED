@@ -1,5 +1,5 @@
-iter-together |build| |documentation|
-=====================================
+iter-together
+=============
 Simultaneously iterate over multiple files with the same index column.
 
 This package was written to accompany the tutorial `Reusable, Reproducible, Useful Computational Science in
@@ -41,8 +41,8 @@ you can do the following to build and open the docs (sorry windows users, you're
     $ make html
     $ open build/html/index.html
 
-Automated Testing
------------------
+Automated Testing |build|
+-------------------------
 All of the settings for checking package metadata quality (pyroma), package integrity (MANIFEST.in, check-manifest),
 code quality (flake8), documentation quality (doc8), running unit tests (pytest), checking code
 coverage (codecov; coverage-report) can be run with ``tox`` with the following:
@@ -51,6 +51,8 @@ coverage (codecov; coverage-report) can be run with ``tox`` with the following:
 
     $ pip install tox
     $ tox
+
+Later, it automatically gets run by Travis-CI on every push.
 
 Versioning
 ----------
