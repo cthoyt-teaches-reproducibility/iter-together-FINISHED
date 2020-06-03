@@ -94,13 +94,16 @@ Note: you have to make sure you have a clean working directory before running th
 
 Releasing to PyPI
 -----------------
-PyPI is pronounced Py-Pee-Eye! After doing ``bumpversion release``, you should release to PyPI using the following:
+PyPI is pronounced Py-Pee-Eye! After doing ``bumpversion release``, you should release to Test PyPI using the following:
 
 .. code-block:: sh
 
     pip install wheel twine
     python setup.py -q sdist bdist_wheel
-    twine upload --skip-existing dist/*
+    twine upload --skip-existing --repository-url https://test.pypi.org/simple/ dist/*
+
+More information on twine can be found at https://packaging.python.org/guides/using-testpypi/#using-testpypi-with-pip.
+When you're doing this for real, you don't need ``--repository-url https://test.pypi.org/simple/``.
 
 Remembering the bumpversion and release commands is a pain, so there's a magical command in ``tox.ini``
 called finish that can be run like with ``tox -e finish``. It takes care of bumping the version to a release
