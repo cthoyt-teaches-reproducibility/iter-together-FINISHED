@@ -3,8 +3,14 @@ iter-together
 Simultaneously iterate over multiple files with the same index column.
 
 This package was written to accompany the tutorial `Reusable, Reproducible, Useful Computational Science in
-Python <bit.ly/2ZXoBMA>`_ that was organized by `CoronaWhy <https://github.com/coronawhy/>`_ and presented
-by `Charles Tapley Hoyt <https://github.com/cthoyt/>`_ on June 3rd, 2020.
+Python <https://bit.ly/2ZXoBMA>`_ that was organized by `CoronaWhy <https://github.com/coronawhy/>`_ and presented
+by `Charles Tapley Hoyt <https://github.com/cthoyt/>`_ on June 3rd, 2020. Recording available at
+https://youtu.be/lo_g-GbYtaA. I've written several blog posts covering the topics presented here in more
+detail at:
+
+- https://cthoyt.com/2020/06/03/how-to-code-with-me-organization.html
+- https://cthoyt.com/2020/06/11/click.html
+- https://cthoyt.com/2020/04/25/how-to-code-with-me-flake8.html
 
 Ignore the Junk
 ---------------
